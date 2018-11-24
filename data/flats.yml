@@ -5,6 +5,7 @@ ssaunier:
   city_slug: "paris"
   wifi: false
   rating: 4
+  details: "This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur."
 papillard:
   name: "Boris' home"
   description: Small flat in Tokyo
@@ -12,6 +13,7 @@ papillard:
   city_slug: "tokyo"
   wifi: true
   rating: 3
+  details: "This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center."
 monsieurpaillard:
   name: Romain's home
   description: Nice flat in Piccadilly
@@ -19,3 +21,4 @@ monsieurpaillard:
   city_slug: "london"
   wifi: true
   rating: 5
+  details: "Located at one of busiest London streets."

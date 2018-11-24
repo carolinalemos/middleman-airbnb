@@ -35,13 +35,13 @@ title: Le Wagon - Middleman
           <h3><%= flat.name %></h3>
           <p><%= flat.description %></p>
           <p class="rating">
-          <% flat.rating.times do %>
-            <i class="fa fa-star" style="color: #FFB400"></i>
-          <% end %>
-          <% (5-flat.rating).times do %>
-            <i class="fa fa-star" style="color: #cacccd"></i>
-          <% end %>
-          </p>
+            <% flat.rating.times do %>
+              <i class="fa fa-star" style="color: #FFB400"></i>
+            <% end %>
+            <% (5-flat.rating).times do %>
+              <i class="fa fa-star" style="color: #cacccd"></i>
+            <% end %>
+            </p>
 
         </div>
         <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class:"card-user" %>
